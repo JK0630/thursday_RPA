@@ -1,0 +1,36 @@
+body {
+  padding-top: 100px;
+}
+p {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 30pt;
+  font-weight: bolder;
+}
+span {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 20pt;
+}
+input[type=text] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 20pt;
+}
+button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 18pt;
+}
+div {
+  #border: solid 1px;
+  #color: black;
+}

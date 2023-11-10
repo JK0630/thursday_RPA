@@ -1,0 +1,73 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACMESelector.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "BizNo.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "serviceKey&Sequence_1",
+        "bizNo&Sequence_1",
+        "returnValue&Sequence_1",
+        "returnObject&Sequence_1",
+        "dataArray&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ExchangeDataTable.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dtOlympic&Sequence_1",
+        "dtOlympic_Filtered&Sequence_1",
+        "dtOlympic_Add&Sequence_1",
+        "dtEmployee&Sequence_1",
+        "dtEmployee_3Item&Sequence_1",
+        "dtAddress&Sequence_1",
+        "dtExtract&Sequence_1",
+        "dtExtract_Filtered&Sequence_1",
+        "sPassword&Sequence_32",
+        "sName&Sequence_14",
+        "nAge&Sequence_14",
+        "nIncome&Sequence_14",
+        "sAddress&Sequence_24"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "OCR.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "SECRET_KEY&Sequence_1",
+        "TEMPLATE_ID&Sequence_1",
+        "url&Sequence_1",
+        "imageByte&Sequence_1",
+        "imageString&Sequence_1",
+        "requestString&Sequence_1",
+        "reponseString&Sequence_1",
+        "reponseJSON&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>OPEN API : 사업 상태 확인</title>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+</head>
+
+<body>
+
+    <NAME>
+    &lt;NAME&gt;
+
+    <div align="center">
+        <div style="width: 700px;">
+            <p>사업 상태 확인</p>
+            <div align="right"><span>사업자번호 : </span><input type="text" id="biz_no" value="" /></div>
+        </div>
+        <div><button id="btnCheck">CHECK STATE</button></div>
+        <div style="width: 700px;">
+            <div align="right"><span>분류 : </span><input type="text" id="b_stt" value="" /></div>
+            <div align="right"><span>결과 : </span><input type="text" id="tax_type" value="" /></div>
+            </div>
+        </div>
+    </div>
+          
+</body>
+
+<script>
+
+$(document).ready(function () {
+    $('#btnCheck').click(function(){
+
+        $('#b_stt').val('');
+        $('#tax_type').val('');
+
+        var data = {
+            "b_no": [$('#b_no').val()],
+        }; 
+   
+        $.ajax({
+            url: "https://api.odcloud.kr/api/nts-businessman/v1/status?serviceKey=9PHdP21atclrOTDNOWHwdRr722WP61Uli%2FF%2FYFq62JqI22ToGvrlkqFFFfmlu3k%2BNufAp5LCCJ8c9oQPFacpzQ%3D%3D",   // <==== Service Key는 테스트 후 변경하시기 바랍니다.
+            type: "POST",
+            data: JSON.stringify(data), 
+            dataType: "JSON",
+            contentType: "application/json",
+            accept: "application/json",
+            success: function(result) {
+
+                console.log(result);
+                
+                $('#b_stt').val(result.data[0].b_stt);
+                $('#tax_type').val(result.data[0].tax_type);
+                
+            },
+            error: function(result) {
+                console.log(result.responseText);
+            }
+        });
+        
+    });
+});
+
+</script>
+
+
+</html>

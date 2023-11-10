@@ -1,0 +1,41 @@
+Studio에서 문자열 사용한 데이터 조작
+
+RegEx 빌더를 사용하는 다음 메서드에 맞는 설명을 찾아보세요.
+Matches
+Is Match
+Replace
+
+문자열 변수인 Letters = "abcdefg"를 고려해 보세요. 
+
+4개 값 중 Letters.Substring(1,2)이 반환되는 값은 무엇인가요?
+
+"bc"
+
+다음 문자열 목록을 고려해 보세요. ListOfContinents = {"Africa", "Antarctica", "Asia", "Australia", "Europe", "North America", "South America"}. 
+
+
+ListOfContinents(2) 표현식이 반환하는 값은 무엇인가요?
+
+Asia
+
+RegEx의 일반적인 용도 4가지를 선택하세요.
+문자열 구문 분석
+입력 유효성 검사
+문자열 조작
+데이터 스크래핑
+
+세 가지 컬렉션 데이터 형식 중 여러 케이크 레시피(이름 및 재료)를 저장하는 데 가장 적합한 것은 무엇인가요?
+사전
+
+4가지 옵션 중 문자열 변수(Username)을 문자열(" is online")과 연결하는 올바른 방법은 무엇인가요?
+UserName  + " is online"
+
+세 가지 액티비티 중 컬렉션의 모든 항목을 개별적으로 처리하는 데 사용할 수 있는 액티비티는 무엇인가요? 
+For Each
+
+음 4개 값 중 다음 표현식이 반환되는 값은 무엇인가요? 
+
+String.Format("{1} is {0}", "home", "John", "far away", 0, 1)
+
+
+"John is home"
